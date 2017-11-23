@@ -2,7 +2,7 @@ import { ProjectorMixin } from '@dojo/widget-core/mixins/Projector';
 import HelloWorld from './widgets/HelloWorld';
 import { registerThemeInjector } from '@dojo/widget-core/mixins/Themed';
 import { Registry } from '@dojo/widget-core/Registry';
-import theme from './theme/theme';
+import theme from './themes/theme';
 
 const root = document.querySelector('my-app') || undefined;
 const registry = new Registry();
